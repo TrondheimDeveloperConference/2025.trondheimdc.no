@@ -1,0 +1,18 @@
+:root{
+    --header-height: 5em;
+    --header-background-color: rgb(41, 41, 41);
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navigation {
+    background-color: var(--header-background-color);
+}
+
+.sticky-header .logo {
+    margin-left: 0.5em;
+}
