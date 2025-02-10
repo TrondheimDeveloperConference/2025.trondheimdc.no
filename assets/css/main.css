@@ -13,3 +13,30 @@
 body {
     width: 100%;
 }
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 390px) {
+  img {
+    width: 100%;
+    height: auto; 
+    max-width: 100vw; 
+  }
+}
+
+/* iPhone 14 Pro */
+@media only screen and (width: 393px) and (height: 852px) and (-webkit-device-pixel-ratio: 3) {
+  img {
+    width: 100%;
+    height: auto; 
+    max-width: 100vw; 
+  }
+}
+
+/* iPhone 14 Pro Max */
+@media only screen and (width: 430px) and (height: 932px) and (-webkit-device-pixel-ratio: 3) {
+  img {
+    width: 100%;
+    height: auto; 
+    max-width: 100vw; 
+  }
+}
