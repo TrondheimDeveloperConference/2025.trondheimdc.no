@@ -1,7 +1,7 @@
 ---
 layout: dontknow
 name: short_about_page
-language: no
+language: "no"
 ---
 
 
