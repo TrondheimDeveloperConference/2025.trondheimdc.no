@@ -3,12 +3,7 @@
     --header-background-color: var(--color-green3); /* Changed for better contrast */
 }
 
-.sticky-header {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    margin: 0;
-}
+/* Remove or ignore any Bootstrap-specific sticky classes */
 
 .navigation {
     background-color: var(--header-background-color);
@@ -32,6 +27,49 @@
     color: var(--color-black3); /* Changed to a darker color */
 }
 
+/* Custom fixed header styling - remains fixed on top */
+.custom-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--header-background-color);
+    z-index: 999;
+    padding: 0.5em 0;
+    /* Ensure safe area on devices with notches */
+    padding-top: env(safe-area-inset-top, 0);
+    padding-top: constant(safe-area-inset-top, 0);
+}
+
+.custom-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.custom-logo img {
+    height: 50px;
+}
+
+.custom-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.custom-nav-item {
+    margin-left: 1em;
+}
+
+.custom-nav-link {
+    text-decoration: none;
+    color: var(--color-black3);
+    font-weight: bold;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .navbar {
@@ -51,4 +89,16 @@
     .sticky-header .logo img {
         max-height: 3em;
     }
+    .custom-header-container {
+        flex-direction: column;
+    }
+    .custom-nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .custom-nav-item {
+        margin: 0.5em 0;
+    }
 }
+
+/* Remove if present any Bootstrap-specific sticky header rules */
