@@ -1,18 +1,104 @@
-:root{
+:root {
     --header-height: 5em;
-    --header-background-color: rgb(41, 41, 41);
+    --header-background-color: var(--color-green3); /* Changed for better contrast */
 }
 
-.sticky-header {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-}
+/* Remove or ignore any Bootstrap-specific sticky classes */
 
 .navigation {
     background-color: var(--header-background-color);
+    width: 100%;
 }
 
+/* New rule to remove lateral padding */
+.container-fluid {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Logo alignment */
 .sticky-header .logo {
     margin-left: 0.5em;
 }
+
+/* Override default .nav-link color for dark navbar */
+.navbar-dark .nav-link {
+    color: var(--color-black3); /* Changed to a darker color */
+}
+
+/* Custom fixed header styling - remains fixed on top */
+.custom-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--header-background-color);
+    z-index: 999;
+    padding: 0.5em 0;
+    /* Ensure safe area on devices with notches */
+    padding-top: env(safe-area-inset-top, 0);
+    padding-top: constant(safe-area-inset-top, 0);
+}
+
+.custom-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.custom-logo img {
+    height: 50px;
+}
+
+.custom-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.custom-nav-item {
+    margin-left: 1em;
+}
+
+.custom-nav-link {
+    text-decoration: none;
+    color: var(--color-black3);
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar .container-fluid {
+        flex-direction: column;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin: 0.5em 0;
+    }
+    .sticky-header .logo img {
+        max-height: 3em;
+    }
+    .custom-header-container {
+        flex-direction: column;
+    }
+    .custom-nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .custom-nav-item {
+        margin: 0.5em 0;
+    }
+}
+
+/* Remove if present any Bootstrap-specific sticky header rules */
