@@ -1,0 +1,19 @@
+<section id="contact" class="section">
+    <img class="section-img-right" src="https://via.placeholder.com/300?text=Contact" alt="Contact Section Image" />
+    <h1>Contact</h1>
+    {% assign contact_pages = site.posts | where: "name", "contact_page" %}
+    {% if contact_pages.size > 0 %}
+        {% for post in contact_pages %}
+            <article class="{{ post.language }}">
+                <header>
+                    <h2>{{ post.title }}</h2>
+                </header>
+                <div>
+                    {{ post.content }}
+                </div>
+            </article>
+        {% endfor %}
+    {% else %}
+        <p>Contact information will be provided soon.</p>
+    {% endif %}
+</section>
