@@ -1,7 +1,8 @@
 @import "colors.css";
 
-@import "main.page.css";
-@import "partner.page.css";
+@import "pages/main.page.css";
+@import "pages/partner.page.css";
+@import "pages/contact.page.css";
 
 @import "header.css";
 @import "sections.css";

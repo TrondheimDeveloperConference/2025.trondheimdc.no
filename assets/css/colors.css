@@ -1,6 +1,5 @@
 :root {
     --main-page-background-color: var(--color-black3);
-    --partner-page-background-color: var(--color-green1);
 
     --section-background-color-primary: var(--color-green1);
     --section-background-color-secondary: #f2faff;
@@ -11,12 +10,17 @@
     --color-green2: #94cc9d;
     --color-green3: #80be8a;
     --color-green4: #5c9564;
+
+    --color-red0: #ffdbd6;
     --color-red1: #ff8675;
     --color-red2: #ea7564;
     --color-red3: #ce5d4d;
+    
+    --color-purple0: #ded4ee;
     --color-purple1: #bda9dd;
     --color-purple2: #817abc;
     --color-purple3: #6a63a0;
+    
     --color-black1: #434343;
     --color-black2: #363636;
     --color-black3: #292929;
