@@ -1,3 +1,7 @@
+:root{
+    --partner-page-background-color: var(--color-purple0);
+}
+
 .partner-page{
     background-color: var(--partner-page-background-color);
 }

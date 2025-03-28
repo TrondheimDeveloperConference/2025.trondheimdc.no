@@ -1,12 +1,9 @@
 ---
 layout: dontknow
-title: Code of Conduct TDC2025
+title: Retningslinjer for god oppførsel
 name: cod
 language: "no"
 ---
-
-
-# Retningslinjer for god oppførsel
 
 Alle deltakere, foredragsholdere, partnere, ansatte og frivillige på konferansen er pålagt å følge retningslinjene for god oppførsel. TDC streber etter å være en hyggelig og inkluderende konferanse for alle deltakere, uten unntak. Vi tolererer ikke fysisk eller elektronisk trakassering av våre deltakere eller ansatte i noen form. Trakassering er støtende kommentarer relatert til kjønn, alder, seksuell legning, funksjonsevne, fysisk utseende, kroppsstørrelse, etnisitet, religion (eller mangel på sådan), bevisst trusler, forfølgelse, fotografering eller lyd-/videoopptak mot rimelig samtykke. Dette er inkludert vedvarende forstyrrelse av samtaler eller andre hendelser, uønsket fysisk kontakt og uønsket seksuell oppmerksomhet. Seksuelle bilder i offentlige rom er upassende for TDC, spesielt i foredrag og workshops, men også på sosiale arrangementer, X og andre nettmedier.
 

@@ -1,12 +1,9 @@
 ---
 layout: dontknow
-title: Code of Conduct TDC2025
+title: Code of Conduct
 name: cod
 language: "en"
 ---
-
-
-# Code of Conduct
 
 All participants, presenters, partners, staff, and volunteers at the conference are required to follow the guidelines for good conduct. TDC strives to be a pleasant and inclusive conference for all participants, without exception. We do not tolerate physical or electronic harassment of our participants or staff in any form. Harassment includes offensive comments related to gender, age, sexual orientation, disability, physical appearance, body size, ethnicity, religion (or lack thereof), intentional threats, stalking, photography or audio/video recording without reasonable consent. This includes persistent disruption of conversations or other events, unwanted physical contact, and unwanted sexual attention. Sexual images in public spaces are inappropriate for TDC, especially in lectures and workshops, but also at social events, X, and other online media.
 
