@@ -1,16 +1,10 @@
-<section id="partners" class="section">
+<section id="partners" class="section partner-page">
     <img class="section-img-left" src="/assets/images/TDC2024/TDC_2024_25 (Small).jpg" alt="Partners Section Image" />
-    <h1>Partners</h1>
     {% assign partner_pages = site.posts | where: "name", "partner_page" %}
     {% if partner_pages.size > 0 %}
         {% for post in partner_pages %}
             <article class="{{ post.language }}">
-                <header>
-                    <h2>{{ post.title }}</h2>
-                </header>
-                <div>
-                    {{ post.content }}
-                </div>
+                {{ post.content }}
             </article>
         {% endfor %}
     {% else %}
