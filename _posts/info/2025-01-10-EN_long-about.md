@@ -2,6 +2,7 @@
 layout: dontknow
 name: about_page
 language: "en"
+title: "About TDC"
 ---
 
 
