@@ -1,16 +1,39 @@
-<header class="custom-header">
-    <div class="custom-header-container">
-        <a href="/" class="custom-logo">
-            <img src="assets/images/logo-green.png" alt="TDC logo" />
-        </a>
-        <nav class="custom-nav">
-            <ul class="custom-nav-list">
-                <li class="custom-nav-item"><a href="#home" class="custom-nav-link">Home</a></li>
-                <li class="custom-nav-item"><a href="#contacts" class="custom-nav-link">Contact</a></li>
-                <li class="custom-nav-item"><a href="#cfp" class="custom-nav-link">CFP</a></li>
-                <li class="custom-nav-item"><a href="#about" class="custom-nav-link">About</a></li>
-                <li class="custom-nav-item"><a href="#partners" class="custom-nav-link">Partners</a></li>
-            </ul>
-        </nav>
-    </div>
+<header class="sticky-header">
+    <nav class="navbar navigation navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a href="/" class="brand-logo navbar-brand logo">
+                <img src="../../assets/images/logo-green.png" alt="TDC logo" />
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"></button>
+            <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+                <ul class="navbar-nav justify-content-center align-items-center gap-2 gap-lg-4">
+                    <li class="nav-item"><a href="#info" class="nav-link active">Info</a></li>
+                    <li class="nav-item"><a href="#partners/" class="nav-link">Partnere</a></li>
+                    <li class="nav-item"><a href="#program" class="nav-link">Program</a></li>
+                    <li class="nav-item"><a href="#speakers" class="nav-link">Speakers</a></li>
+                    <li class="nav-item"><a href="#cfp" class="nav-link">CFP</a></li>
+                    <li class="nav-item"><a href="#codeofconduct" class="nav-link">Code of conduct</a></li>
+                    <li class="nav-item"><a href="#buytickets" class="nav-link">Billetter</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    const navbarCollapse = document.getElementById('navbarNav');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function () {
+        if (navbarCollapse.classList.contains('show')) {
+            const collapseInstance = new bootstrap.Collapse(navbarCollapse, {
+                toggle: true
+            });
+            collapseInstance.hide();
+            }
+        });
+    });
+});
+</script>

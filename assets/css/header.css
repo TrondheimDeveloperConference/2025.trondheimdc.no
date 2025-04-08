@@ -1,104 +1,61 @@
-:root {
-    --header-height: 5em;
-    --header-background-color: var(--color-green3); /* Changed for better contrast */
+:root{
+    --header-height: 4em;
+    --header-background-color: var(--color-black3);
 }
 
-/* Remove or ignore any Bootstrap-specific sticky classes */
-
+.sticky-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+ 
 .navigation {
     background-color: var(--header-background-color);
-    width: 100%;
+    font-weight: 500;
 }
 
-/* New rule to remove lateral padding */
-.container-fluid {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+.navbar-toggler {
+    background: url('../images/menu-closed.svg') no-repeat center;
+    border: none;
+    width: 40px;
+    height: 40px;
 }
 
-/* Logo alignment */
+.navbar-toggler:not(.collapsed) {
+    background: url('../images/menu-open.svg') no-repeat center;
+}
+
+
 .sticky-header .logo {
     margin-left: 0.5em;
 }
 
-/* Override default .nav-link color for dark navbar */
-.navbar-dark .nav-link {
-    color: var(--color-black3); /* Changed to a darker color */
+.navbar-nav .nav-link {
+    position: relative;
+    color: #fff; 
+    transition: color 0.3s ease;
 }
 
-/* Custom fixed header styling - remains fixed on top */
-.custom-header {
-    position: fixed;
-    top: 0;
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    background-color: var(--header-background-color);
-    z-index: 999;
-    padding: 0.5em 0;
-    /* Ensure safe area on devices with notches */
-    padding-top: env(safe-area-inset-top, 0);
-    padding-top: constant(safe-area-inset-top, 0);
+    height: 2px; 
+    background-color: var(--color-red2); 
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.3s ease;
 }
 
-.custom-header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1em;
+.navbar-nav .nav-link:hover {
+    color: var(--color-red2);
 }
 
-.custom-logo img {
-    height: 50px;
+.navbar-nav .nav-link:hover::after {
+    transform: scaleX(1);
 }
-
-.custom-nav-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.custom-nav-item {
-    margin-left: 1em;
-}
-
-.custom-nav-link {
-    text-decoration: none;
-    color: var(--color-black3);
-    font-weight: bold;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-    }
-    .navbar .container-fluid {
-        flex-direction: column;
-    }
-    .navbar-nav {
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-    }
-    .navbar-nav .nav-item {
-        margin: 0.5em 0;
-    }
-    .sticky-header .logo img {
-        max-height: 3em;
-    }
-    .custom-header-container {
-        flex-direction: column;
-    }
-    .custom-nav-list {
-        flex-direction: column;
-        align-items: center;
-    }
-    .custom-nav-item {
-        margin: 0.5em 0;
-    }
-}
-
-/* Remove if present any Bootstrap-specific sticky header rules */
+  
