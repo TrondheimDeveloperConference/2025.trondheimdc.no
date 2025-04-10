@@ -1,13 +1,50 @@
 <section id="partners" class="section partner-page">
-    <img class="section-img-left" src="/assets/images/TDC2024/TDC_2024_25 (Small).jpg" alt="Partners Section Image" />
-    {% assign partner_pages = site.posts | where: "name", "partner_page" %}
-    {% if partner_pages.size > 0 %}
-        {% for post in partner_pages %}
-            <article class="{{ post.language }}">
-                {{ post.content }}
-            </article>
-        {% endfor %}
-    {% else %}
-        <p>Our partners will be announced soon.</p>
-    {% endif %}
+    <ul class="partnerlogos">
+        <li>
+            <a target="_blank" title="Bekk" href="https://bekk.no">
+                <img alt="Bekk" src="/assets/images/partners/bekk.svg" width="240">
+            </a>
+        </li>
+        <li>
+            <a target="_blank" title="Bouvet" href="https://bouvet.no">
+                <img alt="Bouvet" src="/assets/images/partners/bouvet.svg" width="240">
+            </a>
+        </li>
+        <li>
+            <a target="_blank" title="Funktive" href="https://funktive.no">
+                <img alt="Funktive" src="/assets/images/partners/funktive.svg" width="240">
+            </a>
+        </li>
+        <li>
+            <a target="_blank" title="Tietoevry" href="https://tietoevry.no">
+                <img alt="Tietoevry" src="/assets/images/partners/tietoevry.png" width="240">
+            </a>
+        </li>
+        <li>
+            <a target="_blank" title="Webstep" href="https://webstep.no">
+                <img alt="Webstep" src="/assets/images/partners/webstep.svg" width="240">
+            </a>
+        </li>
+        <li>
+            <a target="_blank" title="Systek" href="https://systek.no">
+                <img alt="Systek" src="/assets/images/partners/systek.svg" width="240">
+            </a>
+        </li>
+    </ul>
+
+    <p><a href="https://partner.trondheimdc.no/" target="_blank">Become one of our partners!</a></p>
+
 </section>
+
+<!-- Shuffle partner logos -->
+<script>
+    function shuffle(parent) {
+        if (parent != null) {
+            for (var i = parent.children.length; i >= 0; i--) {
+                parent.appendChild(parent.children[Math.random() * i | 0]);
+            }
+        }
+    }
+    var partnerlogos = document.querySelector('.partnerlogos');
+    shuffle(partnerlogos);
+</script>

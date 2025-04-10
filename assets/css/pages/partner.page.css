@@ -1,7 +1,54 @@
-:root{
-    --partner-page-background-color: var(--color-purple0);
+:root {
+    --partner-page-background-color: var(--color-black3);
 }
 
-.partner-page{
+.partner-page {
     background-color: var(--partner-page-background-color);
+}
+
+#partners {
+    text-align: center;
+}
+
+#partners a {
+    color: white;
+}
+
+#partners .partnerlogos {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#partners ul {
+    padding: 0;
+}
+
+#partners .partnerlogos li {
+    flex-basis: 25%;
+    max-width: 170px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0px 20px 0px 20px;
+}
+
+#partners .partnerlogos li img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    padding-bottom: 0;
+}
+
+@media (max-width: 720px) {
+    #partners .sponsorlogos li {
+        flex-basis: 50%;
+        max-width: 240px;
+        padding: 0px;
+    }
 }
