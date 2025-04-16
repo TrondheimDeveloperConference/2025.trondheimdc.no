@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TDC 2025</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+
+  <body>
+    {% include header.html %}
+    <div class="pt-5">
+      <div class="header-composite position-relative">
+        <img 
+          src="/assets/images/standard/Group-9-1.png" 
+          class="img-fluid w-100 bg-header" 
+          alt="Background Header"/>
+      
+        <div class="overlay-header d-flex justify-content-center justify-content-sm-between">
+          <img 
+            src="{{ page.image_header }}" 
+            class="img-fluid w-50 foreground-image" 
+            alt="Foreground Header"/>
+          <img 
+            src="/assets/images/standard/Frame5.png" 
+            class="img-fluid d-none d-sm-block w-50" 
+            alt="Frame5"/>
+        </div>
+      </div>
+
+
+      <div class="container mt-5 pb-5">
+        <div class="row">   
+          <div class="col-md-6 d-flex flex-md-column align-items-center align-items-md-end position-relative mb-4">
+            <h2 class="mr-4 mr-md-0">{{ page.title }}</h2>
+            <img src="/assets/images/standard/graphic1.png"
+                class="graphic"
+                alt="Decorative graphic">
+          </div>
+
+          <div class="col-md-6">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include content/partners.html %}
+  </body>
+</html>
