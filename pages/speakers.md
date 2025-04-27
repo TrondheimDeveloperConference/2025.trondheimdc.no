@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: speakers
 language: "no"
 title: "Speakers"
 permalink: '/speakers/'
