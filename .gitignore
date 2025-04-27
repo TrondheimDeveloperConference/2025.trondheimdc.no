@@ -98,6 +98,7 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
+
 # Chutzpah Test files
 _Chutzpah*
 
@@ -399,3 +400,6 @@ FodyWeavers.xsd
 
 # Custom ignores
 _site/*
+
+#OS generated files 
+.DS_Store
