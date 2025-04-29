@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: program
 language: "no"
 title: "Program"
 permalink: '/program/'

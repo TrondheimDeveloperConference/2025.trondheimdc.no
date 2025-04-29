@@ -1,0 +1,15 @@
+.sz-cssgrid__track-label {
+    position: sticky !important;
+    top: 58px    !important;
+    z-index: 10;
+    background: white;
+}
+
+.sz-day__title {
+    display: none !important;
+}
+
+.sz-tag[data-categoryname="language"] {
+    background-color: #6a63a0 !important;
+    color: white;
+}
