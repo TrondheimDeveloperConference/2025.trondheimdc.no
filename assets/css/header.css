@@ -3,42 +3,32 @@
     --header-background-color: var(--color-black3);
 }
 
-.sticky-header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-}
- 
-.navigation {
+.navbar{
     background-color: var(--header-background-color);
-    font-weight: 500;
 }
-
-.navbar-toggler {
-    background: url('../images/menu-closed.svg') no-repeat center;
+  
+.navbar-toggler{
+    background: url('../images/standard/menu-closed.svg') no-repeat center;
     border: none;
     width: 40px;
     height: 40px;
 }
 
-.navbar-toggler:not(.collapsed) {
-    background: url('../images/menu-open.svg') no-repeat center;
+.navbar-toggler:not(.collapsed){
+    background: url('../images/standard/menu-open.svg') no-repeat center;
 }
 
+.navbar-toggler .navbar-toggler-icon{
+    display: none;
+  }
 
-.sticky-header .logo {
-    margin-left: 0.5em;
-}
-
-.navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link{
     position: relative;
     color: #fff; 
     transition: color 0.3s ease;
 }
 
-.navbar-nav .nav-link::after {
+.navbar-nav .nav-link::after{
     content: "";
     position: absolute;
     left: 0;
@@ -51,11 +41,14 @@
     transition: transform 0.3s ease;
 }
 
-.navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover{
     color: var(--color-red2);
 }
 
-.navbar-nav .nav-link:hover::after {
+.navbar-nav .nav-link:hover::after{
     transform: scaleX(1);
 }
   
+.navbar-dark .navbar-nav .nav-link.active{
+    color: var(--color-red2);
+}

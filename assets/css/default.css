@@ -1,0 +1,43 @@
+.header-composite {
+    position: relative;
+    width: 100%;
+}
+
+.bg-header {
+    width: 100%;
+    display: block;
+}
+
+
+.overlay-header {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 24px;
+}
+
+.graphic {
+    width: 50px; 
+    height: auto;
+}
+
+.bg-header {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+@media (max-width: 575.98px) {
+    .foreground-image {
+        width: 75% !important;
+    }
+
+    .bg-header {
+        height: 30vh; 
+        width: auto;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+}
