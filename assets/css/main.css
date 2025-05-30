@@ -43,3 +43,16 @@ a{
 a:hover{
   color: var(--color-red1);
 }
+
+.link-with-background{
+  background-color: var(--color-purple3);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.link-with-background:hover{
+  color: white;
+  padding: 10px;
+}

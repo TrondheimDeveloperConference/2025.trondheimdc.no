@@ -7,4 +7,6 @@ nav_active: program
 image_header: '/assets/images/headers/program.svg'
 ---
 
-Vi er i gang med å ferdigstille detaljene for konferanseprogrammet. For øyeblikket har vi ikke den endelige oversikten publisert, men så snart alt er klart, oppdaterer vi denne siden med full informasjon. Takk for at du følger med!
+Årets program har mange spennende foredrag av flinke foredragsholdere. Programmet er koblet til Sessionize hvor du kan utforske våre foredragsholdere, hvilket konferanserom de skal holde foredraget. Her kan du også stjernemerke de foredragene du har lyst til å se.
+
+<a href="https://tdc2025.sessionize.com/schedule" class="link-with-background mt-4 d-inline-block">Åpne programmet i Sessionize</a>
