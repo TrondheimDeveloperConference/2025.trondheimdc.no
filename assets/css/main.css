@@ -34,3 +34,11 @@ body {
   border-radius: 4px;
   outline-offset: 4px;
 }
+
+a{
+  color: var(--color-red3);
+}
+
+a:hover{
+  color: var(--color-red1);
+}
