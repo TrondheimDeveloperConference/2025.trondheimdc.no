@@ -1,0 +1,19 @@
+.bg-purple {
+    background-color: var(--color-purple2) !important;
+  }
+
+.bg-purple hr {
+    background-color: #fff;
+}
+
+.btn-buy {
+    color: #fff;
+    background-color: var(--color-red2);
+    border-color: var(--color-red1);
+  }
+
+a.btn-buy:hover {
+    color: #fff;
+    background-color: var(--color-red1);
+    border-color: var(--color-red1);
+  }
