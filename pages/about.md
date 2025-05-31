@@ -3,7 +3,7 @@ layout: default
 title: Om TDC
 name: about_page
 language: "no"
-permalink: "about"
+permalink: "/about/"
 nav_active: about
 image_header: "/assets/images/headers/about.svg"
 

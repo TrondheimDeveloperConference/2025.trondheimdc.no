@@ -4,3 +4,27 @@
     border-width: 0;
     
 }
+
+.button-green {
+    color: #fff;
+    background-color: var(--color-green4);
+    border-color: var(--color-green3);
+}
+
+a.button-green:hover {
+    color: #fff;
+    background-color: var(--color-green2);
+    border-color: var(--color-green2);
+  }
+
+  .button-black {
+    color: #fff;
+    background-color: var(--color-black2);
+    border-color: var(--color-black1);
+}
+
+a.button-black:hover {
+    color: #fff;
+    background-color: var(--color-black1);
+    border-color: var(--color-black1);
+  }
