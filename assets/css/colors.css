@@ -15,6 +15,7 @@
     --color-red1: #ff8675;
     --color-red2: #ea7564;
     --color-red3: #ce5d4d;
+    --color-red4: #BD5647; /* Ikke en del av TDC fargepallett, men må være så mørk om vi skal ha hvit tekst over */
     
     --color-purple0: #ded4ee;
     --color-purple1: #bda9dd;
