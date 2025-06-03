@@ -27,4 +27,4 @@ Du kan også reise med flybussen – Værnesekspressen. Bussen har avgang i forb
 Under konferansen kan du legge fra deg jakke i garderoben til venstre for hovedinngangen. Vi vil anbefale at du tar dine verdisaker med deg under hele konferansen.
 
 #### Vil du bli vår frivillig?
-Vi trenger fortsatt frivillige til å hjelpe oss å arrangere den kuleste tech-konferansen i Trondheim. Ønsker du å bli en del av oss, kontakt oss på vår e-post: (eposten til TDC).
+Vi trenger fortsatt frivillige til å hjelpe oss å arrangere den kuleste tech-konferansen i Trondheim. Ønsker du å bli en del av oss, kontakt oss på vår e-post: [connect@trondheimdc.no](mailto:connect@trondheimdc.no).
