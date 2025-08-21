@@ -3,6 +3,11 @@
     --header-background-color: var(--color-black3);
 }
 
+/* Avoid pushing the home header down; add offsets per page where needed */
+.fixed-top + * {
+    padding-top: var(--header-height);
+}
+
 .navbar{
     background-color: var(--header-background-color);
 }
