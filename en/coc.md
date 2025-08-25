@@ -7,14 +7,27 @@ nav_active: coc
 image_header: "/assets/images/headers/coc.svg"
 ---
 
-All attendees, speakers, partners, staff, and volunteers are required to follow our Code of Conduct. TDC aims to be a friendly and inclusive conference for everyone. We do not tolerate physical or online harassment of our participants or staff in any form. Harassment includes offensive comments related to gender, age, sexual orientation, disability, physical appearance, body size, ethnicity, religion (or lack thereof), deliberate intimidation, stalking, photography or audio/video recording without reasonable consent. This includes sustained disruption of talks or other events, unwanted physical contact, and unwelcome sexual attention. Sexualized images in public spaces are inappropriate for TDC—especially in talks and workshops, but also at social events, on X, and in other online media.
+Let’s keep this simple: be cool. That means everyone—attendees, speakers, partners, crew, and volunteers—needs to follow the Code of Conduct. It applies everywhere the conference happens, whether that’s in-person or online: talks, stands, workshops, Slack threads, social hangouts, or random hallway conversations.
+At TDC, we’re all about good vibes and making sure everyone feels safe, welcome, and included. No exceptions.
 
-Partners are also subject to this policy. Partners must not use sexualized images, sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
+That means we have zero tolerance for harassment of any kind—physical, verbal, digital, emotional, existential... you get the idea.
+Harassment includes (but is not limited to):
 
-Participants, speakers, or partners who are asked to stop any harassing or inappropriate behavior are expected to comply immediately.
+- Offensive comments about gender, age, sexual orientation, disabilities, appearance, body size, ethnicity, religion (or lack thereof)
+- Threats, stalking, or creeping people out in general
+- Taking photos, video, or audio of someone without their OK
+- Interrupting talks or conversations repeatedly (you know who you are)
+- Unwanted touching or flirting
+- Basically, anything that makes someone feel uncomfortable or unsafe
 
-If a participant engages in harassing behavior, the organizers will follow up with the affected party and take any action they deem appropriate, from a warning to expulsion from the conference without refund.
+<div class="alert alert-warning" role="alert">
+Also: sexy images, videos, slides, or jokes? Not the place. This includes talks, workshops, social events, social media, and more. Partners, we’re looking at you too—no sexy costumes or marketing gimmicks. We’re here to code, not to cringe.
+</div>
 
-Do you see or experience a breach of these guidelines? Please speak up. We can’t be everywhere all the time. If you are harassed, or notice that someone else is being harassed, say something if you feel safe to do so, and contact one of us from the Program Committee immediately. Even if the situation has already been handled, this helps us keep an eye out for further issues.
+If someone asks you to stop any behavior that’s crossing the line? Stop. Immediately.
+We’re not here to police anyone, but we will take action if we need to—from a friendly warning to asking you to leave the conference. And no, there won’t be a refund if that happens.
 
-Not sure who to contact? All organizers wear t-shirts with CREW on the back.
+See something shady? Or feel like something’s off? Tell us. We can’t be everywhere all the time, so we rely on you to speak up if it feels safe. Whether it’s happening to you or someone else, please flag it to someone on the Program Committee ASAP. Even if the issue seems “handled,” we still want to know—it helps us watch out for more trouble.
+
+Not sure who to talk to?
+Look for someone in a T-shirt with CREW on the back and a big “Ask me” button. We’re here for you.
