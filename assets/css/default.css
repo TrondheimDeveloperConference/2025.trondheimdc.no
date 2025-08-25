@@ -15,6 +15,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     gap: 24px;
+    z-index: 1;
 }
 
 .graphic {
@@ -40,14 +41,28 @@
 
 @media (max-width: 575.98px) {
     .foreground-image {
-        width: 75% !important;
+        /* Scale logo responsively within sensible bounds */
+        width: clamp(220px, 70vw, 420px) !important;
     }
 
     .bg-header {
-        height: 30vh;
+        height: 40vh; /* give enough room so overlay clears navbar */
         width: auto;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    /* Keep overlay inside header (absolute), but stack and center content */
+    .overlay-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .date-image {
+        /* Reduce date size ~30% vs earlier */
+        width: clamp(200px, 60vw, 420px) !important;
+        height: auto;
     }
 }
