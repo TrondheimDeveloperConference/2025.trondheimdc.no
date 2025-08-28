@@ -7,12 +7,10 @@ nav_active: about
 image_header: "/assets/images/headers/about.svg"
 ---
 
-### A conference by and for the Trondheim region
-TDC is organized by a cross-section of technology groups in the Trondheim region with support from the Norwegian Computer Society (DND). Our goal is to run a non-commercial, volunteer-driven conference for technology enthusiasts where we can learn from each other, share knowledge, and connect.
+### A Conference By and For the Trondheim Region
+TDC is organised by a cross-section of various tech communities in the Trondheim region, with support from Den Norske Dataforening (DND). Our purpose is to host a non-commercial, volunteer-driven conference for technology enthusiasts, where we can learn from one another, share knowledge, and connect.
+Any potential surplus is used to support the following year’s conference and to fund events in Trondheim organised by different tech groups. For example, we use funds to provide venues for meetups, and the conference statutes explicitly state that the event should contribute to enabling further growth in the IT community in the Trondheim region through talks, meetings, and networking.
 
-Any surplus is used to power next year’s conference and to support local tech community events in Trondheim. For example, we fund venues for meetups. The conference charter explicitly states that TDC will help grow the regional tech community through talks, meetups, and networking.
-
-#### TDC in short
-TDC was first held in 2012. From 2012 to 2019 it grew into a well-known gathering for people interested in technology in the Trondheim region, and speakers like Scott Hanselman, Brian Christian, and Linda Liukas have all graced the stage. During the pandemic years, the conference ran in a smaller format as TDC Community Week. Post-pandemic, we invested in reviving the conference, and in 2024 TDC was held for the tenth time. The conference continues to grow, now featuring dozens of talks, 20–30 exhibitors, and up to 1,000 attendees.
-
-The conference “TDC” started as “Trondheim Developer Conference”, but that name was felt to be too narrow. The conference is for everyone working in technology—designers, product managers, backend developers, and more. Today, TDC is simply “TDC”, and the letter “D” can stand for whatever you want!
+### TDC in Brief
+TDC was first held in 2012. Between 2012 and 2019, it evolved into a well-known meeting point for technology enthusiasts in the Trondheim region, with renowned speakers such as Scott Hanselman, Brian Christian, and Linda Liukas all having attended the conference. During the pandemic years, the conference was held in a smaller format under the name TDC Community Week. After the pandemic, efforts were made to revive the conference, and in 2024, TDC was held for the tenth time. The conference continues to grow and is now a professional celebration featuring dozens of talks, 20–30 exhibitors, and close to 1,000 participants.
+The conference “TDC” originally stood for “Trondheim Developer Conference”, but that name was considered too narrow in scope. The conference is intended for everyone working in technology—whether designers, product managers, or backend developers. TDC is therefore simply “TDC”, and the letter “D” can mean whatever you want it to!

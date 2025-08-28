@@ -7,13 +7,14 @@ nav_active: tickets
 image_header: "/assets/images/headers/tickets.svg"
 ---
 
-#### Can’t make it after all?
+<!-- # Participant Ticket
+Gain access to the full conference, including food and drinks.
+Your ticket also includes entry to the evening conference party.
+3700 NOK
 
-Life happens, we get it. If something comes up and you can’t attend, we’ve got your back:
+[Buy tickets] -->
 
-- We offer full refunds on tickets up to two weeks before the conference.
-- After that, we sadly can’t refund your ticket—but you’re totally welcome to pass it on or resell it to a lucky fellow dev.
+#### Unable to Attend?
+If you’re unable to attend, we’re happy to assist with a refund. Tickets can be refunded up to two weeks before the conference. After that, unfortunately, we’re unable to offer refunds. In such cases, we recommend giving the ticket away or reselling it.
 
-Need a refund or want to change the name on your ticket?
-
-Just drop us a line at [connect@trondheimdc.no](mailto:connect@trondheimdc.no).
+For enquiries regarding refunds or name changes on tickets, please contact us at [connect@trondheimdc.no](mailto:connect@trondheimdc.no).

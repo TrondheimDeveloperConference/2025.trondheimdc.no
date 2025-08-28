@@ -7,6 +7,6 @@ nav_active: program
 image_header: "/assets/images/headers/program.svg"
 ---
 
-This year’s program features many exciting talks by great speakers. The schedule is powered by Sessionize, where you can explore our speakers and which rooms they’ll be presenting in. You can also star the talks you’d like to attend.
+This year’s agenda features many exciting talks by talented speakers. The schedule is linked to Sessionize, where you can explore our speakers and see which conference room each talk will be held in. You can also star the sessions you’d like to attend.
 
-<a href="https://tdc2025.sessionize.com/schedule" class="link-with-background mt-4 d-inline-block">Open the program in Sessionize</a>
+[Open the agenda in Sessionize](https://tdc2025.sessionize.com/schedule){: .link-with-background .mt-4 .d-inline-block }

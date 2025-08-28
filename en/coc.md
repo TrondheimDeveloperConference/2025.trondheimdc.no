@@ -7,27 +7,21 @@ nav_active: coc
 image_header: "/assets/images/headers/coc.svg"
 ---
 
-Let’s keep this simple: be cool. That means everyone—attendees, speakers, partners, crew, and volunteers—needs to follow the Code of Conduct. It applies everywhere the conference happens, whether that’s in-person or online: talks, stands, workshops, Slack threads, social hangouts, or random hallway conversations.
-At TDC, we’re all about good vibes and making sure everyone feels safe, welcome, and included. No exceptions.
+All participants, speakers, partners, staff, and volunteers at the conference are required to follow the Code of Conduct. TDC strives to be a welcoming and inclusive conference for all attendees, without exception. We do not tolerate physical or digital harassment of our participants or staff in any form.
 
-That means we have zero tolerance for harassment of any kind—physical, verbal, digital, emotional, existential... you get the idea.
-Harassment includes (but is not limited to):
+Harassment includes offensive comments related to gender, age, sexual orientation, disability, physical appearance, body size, ethnicity, religion (or lack thereof), deliberate intimidation, stalking, photography or audio/video recording without appropriate consent. It also includes sustained disruption of talks or other events, unwelcome physical contact, and unwelcome sexual attention. Sexual imagery in public spaces is inappropriate at TDC—this applies to talks and workshops, as well as social events, X (formerly Twitter), and other online platforms.
 
-- Offensive comments about gender, age, sexual orientation, disabilities, appearance, body size, ethnicity, religion (or lack thereof)
-- Threats, stalking, or creeping people out in general
-- Taking photos, video, or audio of someone without their OK
-- Interrupting talks or conversations repeatedly (you know who you are)
-- Unwanted touching or flirting
-- Basically, anything that makes someone feel uncomfortable or unsafe
+Partners are also subject to this policy. They must not use sexualised images, clothing/uniforms/costumes, or otherwise create a sexualised environment.
 
-<div class="alert alert-warning" role="alert">
-Also: sexy images, videos, slides, or jokes? Not the place. This includes talks, workshops, social events, social media, and more. Partners, we’re looking at you too—no sexy costumes or marketing gimmicks. We’re here to code, not to cringe.
-</div>
+Participants, speakers, or partners who are asked to stop any harassing or inappropriate behaviour are expected to comply immediately.
 
-If someone asks you to stop any behavior that’s crossing the line? Stop. Immediately.
-We’re not here to police anyone, but we will take action if we need to—from a friendly warning to asking you to leave the conference. And no, there won’t be a refund if that happens.
+If a participant engages in harassing behaviour, the organisers will take appropriate action, which may include issuing a warning or expelling the offender from the conference without refund.
 
-See something shady? Or feel like something’s off? Tell us. We can’t be everywhere all the time, so we rely on you to speak up if it feels safe. Whether it’s happening to you or someone else, please flag it to someone on the Program Committee ASAP. Even if the issue seems “handled,” we still want to know—it helps us watch out for more trouble.
+#### Witness or Experience a Breach of These Guidelines?
+Please speak up. We can’t be everywhere at once. If you are being harassed, or notice someone else being harassed, say something if you feel safe to do so, and contact one of the organisers immediately. Even if the situation has already been addressed, reporting it helps us monitor for further issues.
 
-Not sure who to talk to?
-Look for someone in a T-shirt with CREW on the back and a big “Ask me” button. We’re here for you.
+Not sure who to contact? All organisers will be wearing t-shirts with CREW printed on the back.
+
+#### Our values
+
+We value your attendance and want to ensure a safe and enjoyable experience for all participants. Our code of conduct is designed to protect you and enhance your conference experience.

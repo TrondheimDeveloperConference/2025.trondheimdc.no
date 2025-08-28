@@ -7,14 +7,14 @@ nav_active: vol
 image_header: "/assets/images/headers/vol.svg"
 ---
 
-### Volunteer at the friendliest tech conference in town!
+### Become a volunteer at the city’s friendliest techn conference!
 
-**As a volunteer you’ll have the opportunity to:**
+**As a volunteer, you’ll have a unique opportunity to:**
 - Meet industry and technology experts
-- Grow your network and build lasting connections
+- Expand your network and build lasting connections
 - Learn about the latest trends in development, design, and technology
-- Gain valuable experience that strengthens your CV
-- Attend the conference for free, including TDC merch, food during the day, and evening entertainment
+- Gain valuable experience to strengthen your CV
+- Attend the conference for free, including TDC merchandise, meals during the event, and evening entertainment
 
-#### Interested in joining or have questions?
-Send us an email at [frivillig@trondheimdc.no](mailto:frivillig@trondheimdc.no?subject=Volunteer%20or%20questions%20%E2%80%93%20TDC%202025) with your name, email address, and phone number. We’d love to hear from you!
+#### Interested in joining us or have questions?
+Send us an email at [frivillig@trondheimdc.no](mailto:frivillig@trondheimdc.no) with your name, email address, and phone number. We look forward to hearing from you!
