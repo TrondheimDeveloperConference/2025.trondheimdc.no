@@ -1,0 +1,8 @@
+lang: "no"
+permalink: pretty
+exclude:
+  - node_modules
+  - .vscode
+  - dist
+  - README.md
+  - LICENSE

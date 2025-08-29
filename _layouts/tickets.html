@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.lang | default: 'no' }}">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,10 +17,10 @@
     <div class="pt-5">
         <div class="header-composite position-relative">
             <img src="/assets/images/standard/Group-9-1.png" class="img-fluid w-100 bg-header"
-                alt="Background Header" />
+                alt="{% include i18n.html ns='alt' k='header_bg' %}" />
             <div class="overlay-header d-flex justify-content-center justify-content-sm-between">
-                <img src="{{ page.image_header }}" class="img-fluid w-50 foreground-image" alt="Foreground Header" />
-                <img src="/assets/images/standard/Frame5.png" class="img-fluid d-none d-sm-block w-50" alt="Frame5" />
+                <img src="{{ page.image_header }}" class="img-fluid w-50 foreground-image" alt="{% include i18n.html ns='alt' k='tdc_logo' %}" />
+                <img src="/assets/images/standard/Frame5.png" class="img-fluid d-none d-sm-block w-50" alt="{% include i18n.html ns='alt' k='header_date' %}" />
             </div>
         </div>
 
@@ -32,13 +32,22 @@
                           <img class="img-fluid" src="/assets/images/TDC2024/TDC_2024_178 (Small).jpg" alt="Participants engaged in a talk at the conference">
                         </div>
                         <div class="col-md-6 order-2 order-md-1">
-                          <h1 class="display-5 fw-bold">Deltakerbillett</h1>
-                          <p>Få tilgang til hele konferansen, inkludert mat og drikke.<br>
-                            Gir også tilgang til konferansefesten på kvelden.</p>
-                          <p><b>3700 NOK</b></p>
-                          <hr>
-                          <a class="btn btn-buy btn-lg" href="https://event.checkin.no/123436/tdc-2025"
-                          target="_blank">Kjøp billetter</a>
+                            {% if page.lang == 'en' %}
+                                <h1 class="display-5 fw-bold">{% include i18n.html ns='tickets_page' k='title' %}</h1>
+                                <p>{% include i18n.html ns='tickets_page' k='description' %}</p>
+                                <p><b>3700 NOK</b></p>
+                                <hr>
+                                <a class="btn btn-buy btn-lg" href="https://event.checkin.no/123436/tdc-2025"
+                                target="_blank">{% include i18n.html ns='tickets_page' k='cta' %}</a>
+                            {% else %}
+                                <h1 class="display-5 fw-bold">Deltakerbillett</h1>
+                                <p>Få tilgang til hele konferansen, inkludert mat og drikke.<br>
+                                    Gir også tilgang til konferansefesten på kvelden.</p>
+                                <p><b>3700 NOK</b></p>
+                                <hr>
+                                <a class="btn btn-buy btn-lg" href="https://event.checkin.no/123436/tdc-2025"
+                                target="_blank">Kjøp billetter</a>
+                            {% endif %}
                         </div>
                       </div>
                 </div>

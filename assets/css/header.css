@@ -57,3 +57,11 @@
 .navbar-dark .navbar-nav .nav-link.active{
     color: var(--color-red2);
 }
+
+/* Separator pipe between nav and language switcher */
+.navbar-nav .nav-item .nav-link.text-muted{
+    cursor: default;
+}
+.navbar-nav .nav-item .nav-link.text-muted::after{
+    display: none;
+}

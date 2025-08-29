@@ -1,6 +1,6 @@
 ---
 layout: tickets
-language: "no"
+lang: no
 title: "Billetter"
 permalink: '/tickets/'
 nav_active: tickets
