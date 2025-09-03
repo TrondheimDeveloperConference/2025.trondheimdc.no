@@ -16,27 +16,36 @@ The courses take place in the days following the conference. All courses are hel
   {% assign count = items | size %}
   {% if count > 0 %}
     {% for c in items %}
+    {% assign variant = forloop.index0 | modulo: 3 %}
     <div>
-      <div class="card course-card">
-        <img src="{{ c.image | default: '/assets/images/standard/graphic1.png' }}" class="card-img-top" alt="{{ c.title }}">
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">{{ c.title }}</h5>
-          <p class="card-text">{{ c.description }}</p>
-          <a class="mt-auto btn btn-outline-success" href="{{ c.url }}" target="_blank" rel="noopener">More info</a>
+      <a class="course-card-link" href="{{ c.url }}" target="_blank" rel="noopener">
+        <div class="card course-card course-card--variant-{{ variant }}">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">{{ c.title }}</h5>
+            <p class="card-text">{{ c.description }}</p>
+            <div class="course-meta mt-auto">
+              {% if c.organiser %}<div><strong>Organiser:</strong> {{ c.organiser }}</div>{% endif %}
+              {% if c.duration %}<div><strong>Duration:</strong> {{ c.duration }}</div>{% endif %}
+              {% if c.date %}<div><strong>Date:</strong> {{ c.date }}</div>{% endif %}
+            </div>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
     {% endfor %}
   {% else %}
-    {% comment %} Dummy cards until we have a full list {% endcomment %}
     {% for i in (1..6) %}
+    {% assign variant = forloop.index0 | modulo: 3 %}
     <div>
-      <div class="card course-card">
-        <img src="/assets/images/standard/graphic1.png" class="card-img-top" alt="Placeholder image">
+      <div class="card course-card course-card--variant-{{ variant }}">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">Course title {{ i }}</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a class="mt-auto btn btn-outline-success disabled" href="#" tabindex="-1" aria-disabled="true">Coming soon</a>
+          <div class="course-meta mt-auto">
+            <div><strong>Organiser:</strong> TBD</div>
+            <div><strong>Duration:</strong> 1 day</div>
+            <div><strong>Date:</strong> TBD</div>
+          </div>
         </div>
       </div>
     </div>

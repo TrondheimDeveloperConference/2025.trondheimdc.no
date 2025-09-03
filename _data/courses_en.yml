@@ -1,10 +1,7 @@
-# Placeholder list for English courses. Fill with items like:
-# - title: "Kubernetes Workshop"
-#   description: "Hands-on introduction to Kubernetes."
-#   image: "/assets/images/standard/graphic1.png"
-#   url: "https://example.com/k8s-workshop"
-# Placeholder list for English courses. Fill with items like:
-# - title: "Kubernetes Workshop"
-#   description: "Hands-on introduction to Kubernetes."
-#   image: "/assets/images/standard/graphic1.png"
-#   url: "https://example.com/k8s-workshop"
+# English courses data
+- title: "Workshop: Practical React with TypeScript"
+  description: "React is one of the most popular frameworks for web development. In this workshop you'll learn how React works, how to build scalable apps, and how to leverage TypeScript for clean, maintainable code."
+  organiser: "Bouvet"
+  duration: "3 days (09:00-16:00)"
+  date: "21 October 2025"
+  url: "https://www.bouvet.no/kurs/kategorier/utvikling-for-web-og-mobil/workshop-praktisk-react-med-typescript"

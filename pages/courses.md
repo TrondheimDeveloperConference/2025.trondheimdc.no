@@ -1,6 +1,6 @@
 ---
 layout: courses
-language: "no"
+lang: "no"
 title: "Kurs og workshops"
 permalink: "/courses/"
 nav_active: courses
@@ -16,27 +16,36 @@ Kursene gjennomføres i dagene etter konferansen. Alle kurs holdes i Trondheim o
   {% assign count = items | size %}
   {% if count > 0 %}
     {% for c in items %}
+    {% assign variant = forloop.index0 | modulo: 3 %}
     <div>
-      <div class="card course-card">
-        <img src="{{ c.image | default: '/assets/images/standard/graphic1.png' }}" class="card-img-top" alt="{{ c.title }}">
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">{{ c.title }}</h5>
-          <p class="card-text">{{ c.description }}</p>
-          <a class="mt-auto btn btn-outline-success" href="{{ c.url }}" target="_blank" rel="noopener">Mer info</a>
+      <a class="course-card-link" href="{{ c.url }}" target="_blank" rel="noopener">
+        <div class="card course-card course-card--variant-{{ variant }}">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">{{ c.title }}</h5>
+            <p class="card-text">{{ c.description }}</p>
+            <div class="course-meta mt-auto">
+              {% if c.organiser %}<div><strong>Arrangør:</strong> {{ c.organiser }}</div>{% endif %}
+              {% if c.duration %}<div><strong>Varighet:</strong> {{ c.duration }}</div>{% endif %}
+              {% if c.date %}<div><strong>Dato:</strong> {{ c.date }}</div>{% endif %}
+            </div>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
     {% endfor %}
   {% else %}
-    {% comment %} Dummy cards until we have a full list {% endcomment %}
     {% for i in (1..6) %}
+    {% assign variant = forloop.index0 | modulo: 3 %}
     <div>
-      <div class="card course-card">
-        <img src="/assets/images/standard/graphic1.png" class="card-img-top" alt="Plassholderbilde">
+      <div class="card course-card course-card--variant-{{ variant }}">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">Kurs tittel {{ i }}</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a class="mt-auto btn btn-outline-success disabled" href="#" tabindex="-1" aria-disabled="true">Kommer snart</a>
+          <div class="course-meta mt-auto">
+            <div><strong>Arrangør:</strong> TBD</div>
+            <div><strong>Varighet:</strong> 1 dag</div>
+            <div><strong>Dato:</strong> TBD</div>
+          </div>
         </div>
       </div>
     </div>
