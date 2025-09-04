@@ -18,6 +18,13 @@
     tdc_logo: TDC-logo
     header_bg: Bakgrunnsheader
     header_date: "20. oktober 2025 – Clarion Hotel Trondheim"
+  hero:
+    date_full: "20. oktober 2025"
+    date_day: "20. oktober"
+    year: "2025"
+    venue: "Clarion Hotel Trondheim"
+    partnership_prefix: "I samarbeid med"
+    partnership_partner: "Den norske dataforening"
   flickr: Flickr
   tickets_page:
     title: "Deltakerbillett"
@@ -44,6 +51,13 @@
     tdc_logo: TDC logo
     header_bg: Background Header
     header_date: "20 October 2025 – Clarion Hotel Trondheim"
+  hero:
+    date_full: "20th of October 2025"
+    date_day: "20th of October"
+    year: "2025"
+    venue: "Clarion Hotel Trondheim"
+    partnership_prefix: "In collaboration with"
+    partnership_partner: "Den norske dataforening"
   flickr: Flickr
   tickets_page:
     title: "Attendee ticket"
