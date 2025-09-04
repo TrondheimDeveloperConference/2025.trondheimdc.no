@@ -18,6 +18,7 @@
     tdc_logo: TDC-logo
     header_bg: Bakgrunnsheader
     header_date: "20. oktober 2025 – Clarion Hotel Trondheim"
+  flickr: Flickr
   tickets_page:
     title: "Deltakerbillett"
     description: "Få tilgang til hele konferansen, inkludert mat og drikke.\n                            Gir også tilgang til konferansefesten på kvelden."
@@ -43,6 +44,7 @@
     tdc_logo: TDC logo
     header_bg: Background Header
     header_date: "20 October 2025 – Clarion Hotel Trondheim"
+  flickr: Flickr
   tickets_page:
     title: "Attendee ticket"
     description: "Get access to the full conference, including food and drinks.\n                            Also includes access to the evening party."
