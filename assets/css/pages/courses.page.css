@@ -16,6 +16,11 @@
   }
 }
 
+.course-card-link {
+  display: block;
+  border-radius: 12px;
+}
+
 .course-card.card {
   font-size: 0.9rem;
 }
