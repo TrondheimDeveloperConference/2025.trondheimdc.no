@@ -12,6 +12,7 @@
     title: "Velkommen til TDC 2025!"
     tickets: Billetter
     program: Program
+    courses: Kurs
   partners:
     cta: "Bli partner?"
   alt:
@@ -38,6 +39,7 @@
     title: "Welcome to TDC 2025!"
     tickets: Tickets
     program: Program
+    courses: Courses
   partners:
     cta: "Become a partner?"
   alt:
