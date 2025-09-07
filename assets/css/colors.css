@@ -9,7 +9,7 @@
     --color-green1: #a9ddb1;
     --color-green2: #94cc9d;
     --color-green3: #80be8a;
-    --color-green4: #5c9564;
+    --color-green4: #4f8256; /* Ikke en del av TDC fargepallett, men må være så mørk om vi skal ha hvit tekst over */
 
     --color-red0: #ffdbd6;
     --color-red1: #ff8675;

@@ -10,114 +10,38 @@
   }
 }
 
-@media (min-width: 992px) { /* lg */
+@media (min-width: 992px) { 
   .courses-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (min-width: 1200px) { /* xl */
-  .courses-grid {
-    /* Keep max 3 columns so the 3-color pattern aligns per row */
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 .course-card.card {
-  height: 100%;
-  background-color: var(--section-background-color-secondary);
-  color: #000;
-  border: 1px solid var(--color-black1);
-  border-radius: 8px;
-  position: relative;
-}
-
-.course-card .card-img-top {
-  height: 120px;
-  object-fit: cover;
-}
-
-@media (min-width: 768px) {
-  .course-card .card-img-top { height: 140px; }
-}
-
-@media (min-width: 992px) {
-  .course-card .card-img-top { height: 150px; }
-}
-
-.course-card .card-body {
-  padding: 0.75rem;
+  font-size: 0.9rem;
 }
 
 .course-card .card-title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 0.35rem;
+  font-weight: 600;
 }
 
 .course-card .card-text {
-  font-size: 0.9rem;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
-  line-clamp: 2;
+  line-clamp: 6;
   overflow: hidden;
-  min-height: 2.6em; /* keep rows consistent */
+  min-height: 2.6em;
 }
 
-.course-card .btn {
-  font-size: 0.875rem;
-  padding: 0.25rem 0.5rem;
-}
-
-/* High-contrast outline button */
-.course-card .btn-outline-success {
-  color: var(--color-green4);
-  border-color: var(--color-green4);
-}
-
-.course-card .btn-outline-success:hover,
-.course-card .btn-outline-success:focus {
-  color: #fff;
-  background-color: var(--color-green4);
-  border-color: var(--color-green4);
-}
-
-.course-card .btn-outline-success.disabled,
-.course-card .btn-outline-success:disabled {
-  color: var(--color-black2);
-  border-color: var(--color-black2);
-  opacity: 1;
-}
-
-/* Alternating color variants (inspired by screenshot) */
-.course-card--variant-0 {
-  background-color: var(--color-green4); /* darker for contrast */
-  color: #fff;
-  border-color: var(--color-green4);
-}
-
-.course-card--variant-1 {
-  background-color: var(--color-red3);
-  color: #fff;
-  border-color: var(--color-red4);
-}
-
-.course-card--variant-2 {
-  background-color: var(--color-purple3);
-  color: #fff;
-  border-color: var(--color-purple2);
-}
-
-/* Fallback: ensure alternation even if classes are missing */
 .courses-grid > div:nth-child(3n+1) .course-card {
   background-color: var(--color-green4);
   color: #fff;
-  border-color: var(--color-green4);
 }
 .courses-grid > div:nth-child(3n+2) .course-card {
-  background-color: var(--color-red3);
+  background-color: var(--color-red4);
   color: #fff;
-  border-color: var(--color-red4);
 }
 .courses-grid > div:nth-child(3n+3) .course-card {
   background-color: var(--color-purple3);
@@ -125,52 +49,15 @@
   border-color: var(--color-purple2);
 }
 
-.course-card--variant-0 .btn,
-.course-card--variant-1 .btn,
-.course-card--variant-2 .btn {
-  border-color: #fff;
-  color: #fff;
-}
-
-.course-card--variant-0 .btn:hover,
-.course-card--variant-1 .btn:hover,
-.course-card--variant-2 .btn:hover,
-.course-card--variant-0 .btn:focus,
-.course-card--variant-1 .btn:focus,
-.course-card--variant-2 .btn:focus {
-  background: #fff;
-  color: #000;
-}
-
-/* Full-card link */
-.course-card-link {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-}
-
-.course-card-link:focus-visible {
-  outline: 3px solid #fff;
-  outline-offset: 3px;
-}
-
-.course-card .card-title {
-  font-weight: 600;
-}
-
-.course-card .course-meta {
-  margin-top: 0.75rem;
-}
-
-.course-card--variant-0 .course-meta,
-.course-card--variant-1 .course-meta,
-.course-card--variant-2 .course-meta {
-  color: rgba(255,255,255,0.9);
-}
-
-/* optional hover */
 .course-card:hover {
   transform: translateY(-2px);
   transition: transform 120ms ease-in-out, box-shadow 120ms ease-in-out;
   box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+  filter: brightness(0.95); 
+}
+
+.course-card-link,
+.course-card-link:hover,
+.course-card-link:focus {
+  text-decoration: none;
 }

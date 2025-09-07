@@ -21,7 +21,7 @@ Kursene gjennomføres i dagene etter konferansen. Alle kurs holdes i Trondheim o
       <a class="course-card-link" href="{{ c.url }}" target="_blank" rel="noopener">
         <div class="card course-card course-card--variant-{{ variant }}">
           <div class="card-body d-flex flex-column">
-            <h5 class="card-title">{{ c.title }}</h5>
+            <h3 class="card-title">{{ c.title }}</h3>
             <p class="card-text">{{ c.description }}</p>
             <div class="course-meta mt-auto">
               {% if c.organiser %}<div><strong>Arrangør:</strong> {{ c.organiser }}</div>{% endif %}
@@ -39,7 +39,7 @@ Kursene gjennomføres i dagene etter konferansen. Alle kurs holdes i Trondheim o
     <div>
       <div class="card course-card course-card--variant-{{ variant }}">
         <div class="card-body d-flex flex-column">
-          <h5 class="card-title">Kurs tittel {{ i }}</h5>
+          <h3 class="card-title">Kurs tittel {{ i }}</h3>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <div class="course-meta mt-auto">
             <div><strong>Arrangør:</strong> TBD</div>
