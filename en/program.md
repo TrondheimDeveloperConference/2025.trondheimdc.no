@@ -1,7 +1,7 @@
 ---
 layout: program
 lang: en
-title: "Program"
+title: "Agenda"
 permalink: "/en/program/"
 nav_active: program
 image_header: "/assets/images/headers/program.svg"

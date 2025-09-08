@@ -7,9 +7,11 @@ nav_active: courses
 image_header: "/assets/images/logos/courses.svg"
 ---
 
-In collaboration with our partners, we offer courses and workshops related to TDC.
+<div class="text-center mb-4">
+  <p>In collaboration with our partners, we offer courses and workshops related to TDC.</p>
 
-The courses take place in the days following the conference. All courses are held in Trondheim, and the organisers are responsible for the venues and delivery. Follow the links below for more information and registration (external websites).
+  <p>The courses take place in the days following the conference. All courses are held in Trondheim, and the organisers are responsible for the venues and delivery. Follow the links below for more information and registration (external websites).</p>
+</div>
 
 <div class="courses-grid mt-2">
   {% assign items = site.data.courses_en %}

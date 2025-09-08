@@ -12,6 +12,7 @@
     title: "Velkommen til TDC 2025!"
     tickets: Billetter
     program: Program
+    courses: Kurs
   partners:
     cta: "Bli partner?"
   alt:
@@ -28,7 +29,7 @@
   nav:
     about: About TDC
     info: Info
-    program: Program
+    program: Agenda
     speakers: Speakers
     coc: Code of conduct
     vol: Volunteer
@@ -37,7 +38,8 @@
   home:
     title: "Welcome to TDC 2025!"
     tickets: Tickets
-    program: Program
+    program: Agenda
+    courses: Courses
   partners:
     cta: "Become a partner?"
   alt:
