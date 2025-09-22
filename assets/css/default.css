@@ -11,11 +11,13 @@
 
 .overlay-header {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    gap: 24px;
+    gap: 48px; /* more breathing room between logo stack and date block */
     z-index: 1;
+    display: flex;
+    align-items: center; /* vertical centering inside hero */
 }
 
 .graphic {
@@ -78,7 +80,7 @@
     --hero-date-day-letter-spacing: .05em; /* adjust to visually balance full width */
 }
 .hero-header { min-height: 380px; }
-.hero-overlay { gap: 2.5rem; }
+.hero-overlay { gap: 3.5rem; }
 .hero-tdc-logo { width: clamp(240px, 42vw, 520px); height: auto; }
 .hero-tdc-logo { object-fit: contain; }
 
@@ -95,12 +97,13 @@ html[lang="en"] .hero-date-day, body[lang="en"] .hero-date-day { letter-spacing:
 .hero-date-year { font-size: clamp(var(--hero-year-min), 8vw, var(--hero-year-max)); font-weight: 700; letter-spacing: .01em; }
 .hero-date-venue { font-size: clamp(var(--hero-venue-min), 1.65vw, var(--hero-venue-max)); font-weight: 500; margin-top: .65rem; color: var(--color-red2); letter-spacing:.01em; }
 .hero-date-day, .hero-date-venue { white-space: nowrap; }
-.hero-partner { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; opacity: .9; white-space: nowrap; }
+.hero-partner { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; opacity: .9; white-space: nowrap; display:flex; }
 .hero-partner-logo { height: 30px; width: auto; filter: brightness(0) invert(1); margin-left:.35rem; }
-.hero-logo-stack { display:flex; flex-direction:column; align-items:center; }
+.hero-logo-stack { display:flex; flex-direction:column; align-items:center; justify-content:center; }
 .hero-logo-stack .hero-partner { margin-top:1rem; }
 @media (min-width: 576px){
-    .hero-logo-stack { align-items:flex-start; }
+    .hero-logo-stack { align-items:flex-end; text-align:right; }
+    .hero-date-wrapper { display:flex; flex-direction:column; justify-content:center; text-align:left; }
 }
 
 @media (max-width: 575.98px) {
@@ -114,7 +117,7 @@ html[lang="en"] .hero-date-day, body[lang="en"] .hero-date-day { letter-spacing:
     .hero-date-year { font-size: clamp(3.1rem, 19vw, 5.2rem); }
     .hero-date-venue { font-size: clamp(1.05rem, 4vw, 1.3rem); margin-top:.5rem; }
     .hero-date-day, .hero-date-venue { white-space: normal; }
-    .hero-partner { white-space: normal; }
+    .hero-partner { white-space: normal; align-items:center; }
     .hero-partner-logo { height:22px; }
     .hero-partner { flex-direction: column; font-size: .65rem; }
     .hero-partner-logo { height: 24px; margin-top: .25rem; }

@@ -18,22 +18,8 @@
     <div class="header-composite position-relative hero-header">
       <img src="/assets/images/standard/Group-9-1.png" class="img-fluid w-100 bg-header" alt="{% include i18n.html ns='alt' k='header_bg' %}" />
       <div class="overlay-header d-flex flex-column flex-md-row align-items-center align-items-md-start hero-overlay">
-        <!-- Cropped main TDC letters image (replace with cropped file) -->
-        <div class="hero-logo-stack text-center text-md-left">
-          <img src="{{ page.image_header }}" class="img-fluid hero-tdc-logo" alt="{% include i18n.html ns='alt' k='tdc_logo' %}" />
-          <div class="hero-partner d-flex align-items-center justify-content-center justify-content-md-start mt-3">
-            <span class="hero-partner-prefix mr-2">{% include i18n.html ns='hero' k='partnership_prefix' %}</span>
-            <img src="/assets/images/partners/dataforeningen-white.svg" alt="{% include i18n.html ns='hero' k='partnership_partner' %}" class="hero-partner-logo" />
-          </div>
-        </div>
-        <div class="hero-date-wrapper text-center text-md-left mt-4 mt-md-0" aria-labelledby="hero-date-full">
-          <time datetime="2025-10-20" class="d-inline-block">
-            <div class="hero-date-line hero-date-day">{% include i18n.html ns='hero' k='date_day' %}</div>
-            <div class="hero-date-line hero-date-year">{% include i18n.html ns='hero' k='year' %}</div>
-          </time>
-          <div class="hero-date-line hero-date-venue">{% include i18n.html ns='hero' k='venue' %}</div>
-          <p id="hero-date-full" class="sr-only">{% include i18n.html ns='hero' k='date_full' %} – {% include i18n.html ns='hero' k='venue' %}</p>
-        </div>
+        {% include hero-left.html %}
+        {% include hero-right.html %}
       </div>
     </div>
 
