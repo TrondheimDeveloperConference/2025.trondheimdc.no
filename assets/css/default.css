@@ -69,6 +69,9 @@
     }
 }
 
+.logo-top-left{
+    height: 30px;
+}
 /* Hero adjustments for text-based date and partner logo */
 :root {
     --hero-year-max: 6.6rem; /* adjust for desktop width alignment */
