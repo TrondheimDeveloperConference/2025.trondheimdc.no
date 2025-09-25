@@ -13,14 +13,14 @@
 
     <body>
         {% include header.html %}
-        <div class="pt-5">
-            <div class="header-composite position-relative">
-                <img src="/assets/images/standard/Group-9-1.png" class="img-fluid w-100 bg-header" alt="{% include i18n.html ns='alt' k='header_bg' %}"/>
-                <div class="overlay-header d-flex justify-content-center justify-content-sm-between">
-                    <img src="{{ page.image_header }}" class="img-fluid w-50 foreground-image" alt="{% include i18n.html ns='alt' k='tdc_logo' %}"/>
-                    <img src="/assets/images/standard/Frame5.png" class="img-fluid d-none d-sm-block w-50" alt="{% include i18n.html ns='alt' k='header_date' %}"/>
-                </div>
-            </div>
+                <div class="pt-5">
+                        <div class="header-composite position-relative hero-header">
+                            <img src="/assets/images/standard/Group-9-1.png" class="img-fluid w-100 bg-header" alt="{% include i18n.html ns='alt' k='header_bg' %}" />
+                            <div class="overlay-header d-flex flex-column flex-md-row hero-overlay">
+                                {% include hero-left.html %}
+                                {% include hero-right.html %}
+                            </div>
+                        </div>
 
             <div class="container mt-5 pb-5">
                 <div class="d-flex align-items-center justify-content-center position-relative mb-4">
