@@ -1,8 +1,0 @@
-{
-  // Ensure VS Code terminals see Ruby/Jekyll on Windows default installs
-  "terminal.integrated.env.windows": {
-    // Prepend likely Ruby + gem bin paths before the existing PATH
-  "PATH": "C:\\Ruby33-x64\\bin;C:\\Ruby32-x64\\bin;C:\\Ruby31-x64\\bin;${env:USERPROFILE}\\.gem\\ruby\\3.3.0\\bin;${env:USERPROFILE}\\.gem\\ruby\\3.2.0\\bin;${env:USERPROFILE}\\.gem\\ruby\\3.1.0\\bin;${env:PATH}",
-    "JEKYLL_ENV": "development"
-  }
-}
